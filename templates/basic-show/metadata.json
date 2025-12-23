@@ -1,0 +1,11 @@
+{
+  "name": "Basic Template Show",
+  "artist": "Your Name",
+  "duration": 120,
+  "description": "A template for creating Tesla light shows",
+  "created": "2025-12-23",
+  "fps": 25,
+  "audio_format": "wav",
+  "notes": "This is a template. Replace with your actual show data."
+}
+

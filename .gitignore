@@ -1,0 +1,44 @@
+# Tesla Lightshow - Git Ignore
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Large media files (optional - uncomment if you want to track them)
+# *.fseq
+# *.wav
+# *.mp3
+
+# USB test directories
+usb_test/
+*.usb/
+
+# OS specific
+Thumbs.db
+.Spotlight-V100
+.Trashes
+

@@ -1,0 +1,43 @@
+TESLA LIGHTSHOW TEMPLATE
+========================
+
+This template provides the structure for a Tesla light show.
+
+REQUIRED FILES:
+--------------
+1. lightshow.fseq  - Light sequence data (from xLights)
+2. lightshow.wav   - Audio file (or lightshow.mp3)
+3. metadata.json   - Show information (provided)
+
+HOW TO USE:
+-----------
+1. Create your light sequence in xLights
+2. Export as "lightshow.fseq"
+3. Place your audio file as "lightshow.wav"
+4. Update metadata.json with show details
+5. Run validation: python tools/validate.py shows/your-show
+6. Build for USB: python tools/package.py shows/your-show
+
+Xlights SETUP:
+--------------
+- Frame Rate: 25 FPS (40ms interval)
+- Audio: Import your music file
+- Model: Use Tesla xLights profile
+- Export: File > Export > FSEQ format
+
+DEPLOYMENT:
+-----------
+1. Copy build/your-show/LightShow/ to USB drive root
+2. Eject USB safely
+3. Insert into Tesla front USB port
+4. Navigate to: Toybox > Light Show > Custom
+5. Enjoy your show!
+
+RESOURCES:
+----------
+- xLights: https://xlights.org/
+- Tesla Guide: https://github.com/teslamotors/light-show
+- Documentation: See docs/ folder in this repo
+
+Have fun creating! 🎭✨
+

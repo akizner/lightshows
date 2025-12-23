@@ -1,0 +1,9 @@
+# Tesla Lightshow Creator - Python Dependencies
+
+# No external dependencies required for basic functionality!
+# All tools use Python standard library only.
+
+# Optional: For advanced features (uncomment if needed)
+# mutagen>=1.47.0          # For reading audio file metadata
+# pillow>=10.0.0            # For image processing if adding visual previews
+

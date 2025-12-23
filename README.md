@@ -48,7 +48,7 @@ tesla-light-show/
 ```bash
 # Clone this repository
 git clone <your-repo-url>
-cd tesla-light-show
+cd lightshows
 
 # Install Python dependencies
 pip install -r requirements.txt
